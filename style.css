@@ -58,13 +58,13 @@ background-color: rgb(241, 248, 248);
 @media screen and (max-width:786px) {
     body{
         height: 500px;
-        width: 150px;
+        width: 250px;
       
        
     }
     .input{
         height: 25px;
-        width: auto;
+        width: 180px;
         margin-right: 10px;
         padding-left: 10px;
         border: 1px solid black;
