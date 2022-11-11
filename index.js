@@ -6,20 +6,16 @@ function removeAll(){
 }
 
 function add(){
-    document.getElementById('error').innerText=" ";
     let a=document.getElementById('item').value;
     console.log(a);
     
     if(a==''){
-        document.getElementById('error').innerText="please enter value"
+        alert("please enter a task");
     }
     else{
         let box=document.getElementById("box");
         let li=document.createElement("li");
         li.innerText=a;
-        // let btn=document.createElement("button");
-        // btn.classList.add("add1");
-        // btn.innerHTML=delete;
             let img = document.createElement('img');
             img.src = 'delete.jpg';
            img.classList.add("add1");
@@ -40,13 +36,14 @@ function add(){
         
         }
     
+       
     img.addEventListener("click",() =>{
        box.removeChild(li)
     
       });
     }
-   
-
+    a=document.getElementById('item');
+    a.value=""; 
 }
 
 
