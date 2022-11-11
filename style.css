@@ -6,13 +6,11 @@
 
 body{
     height: 800px;
-    width: 500px;
+    width: 200px;
     margin-left: 20px;
    
 }
-h1{
-    margin: 0px 0px 20px;
-}
+
 .input{
     height: 40px;
     margin-right: 10px;
@@ -37,7 +35,7 @@ li{
 
 .add1{
     height: 50px;
-    margin-left: 30px;
+    margin-left: 50px;
     
 }
 
@@ -46,6 +44,10 @@ li{
  
   
 }
+h2{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
 
 .bttn{
 margin-top: 30px;
@@ -53,3 +55,39 @@ padding: 10px 20px;
 background-color: rgb(241, 248, 248);
 }
 
+@media screen and (max-width:786px) {
+    body{
+        height: 500px;
+        width: 200px;
+      
+       
+    }
+    .input{
+        height: 25px;
+        margin-right: 10px;
+        padding-left: 10px;
+        border: 1px solid black;
+        font-size:1rem;
+    }
+    .add{
+        height: 20px;
+       
+    }
+    
+.add1{
+    height: 25px;
+    margin-left: 50px;
+    
+}
+li{
+    display: flex;
+    list-style: none;
+    font-size: 1rem;
+    
+}
+.bttn{
+    margin-top: 30px;
+    padding: 5px 15px;
+    background-color: rgb(241, 248, 248);
+    }
+}
